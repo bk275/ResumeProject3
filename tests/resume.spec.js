@@ -100,13 +100,13 @@ test('Check Skills Icons', async ({ page }) => {
 /* This test checks that the experience company and role are visible on the page */
 test('Check Experience Role and Company', async ({ page }) => {
   await page.goto(resumeURL);
-  await expect(page.locator('.experience-section h3')).toHaveLength();
+  await expect(page.locator('.experience-section h3')).toBeVisible();
 });
 
 /* This test checks that the experience duration is visible on the page */
 test('Check Experience Duration', async ({ page }) => {
   await page.goto(resumeURL);
-  await expect(page.locator('.experience-section h4')).toHaveLength();
+  await expect(page.locator('.experience-section h4')).toBeVisible();
 });
 
 /* This test checks that the education degree and university are visible on the page */
