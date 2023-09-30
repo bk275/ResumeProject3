@@ -7,10 +7,10 @@ The :root selector refers to the root element. In HTML, the root element is alwa
 
 :root {
     /* Colors */
-    --color-primary: #023047;  /* Dark Blue for main text */
-    --color-secondary: #255f85;  /* Dark Sky Blue for sidebar */
-    --color-accent: #8ac926;  /* Lime Green for links hover and section separators */
-    --hover-color: #88b7d8;
+    --color-primary: #980c0c;  /* Dark Blue for main text */
+    --color-secondary: #cfc500;  /* Dark Sky Blue for sidebar */
+    --color-accent: #cfc500;  /* Lime Green for links hover and section separators */
+    --hover-color: #980c0c;
 
 
 
@@ -73,7 +73,7 @@ p {
 }
 
 body {
-    background: url('../images/ocean.webp'); 
+    background: url('../images/monkey.webp'); 
     /* Background image */
     background-size: cover;
     /* Scale the background image to be as large as possible */
@@ -95,7 +95,7 @@ body {
     margin: 2rem auto;
     /* Centrally align the container horizontally */
     padding: 0;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.75);
     /* Background color of the container */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
     /* Add shadow around the container */
